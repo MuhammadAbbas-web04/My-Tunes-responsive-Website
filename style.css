@@ -137,6 +137,11 @@ display: none;
 }
 
 /* navbar responsive ended   */
+
+
+
+/* section for my tune hero started */
+
 .my-tune-content{
 
   background-position: center; 
@@ -209,20 +214,8 @@ background: url('img dj.jpg') no-repeat center center/cover;
       font-family: 'Josefin', sans-serif;
 
     }
-
-    @media (max-width: 768px) {
-      .hero-section-headingthree {
-        font-size: 2rem;
-        max-width: 90%;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .hero-section-headingthree {
-        font-size: 1.5rem;
-        line-height: 1.3;
-      }
-    }
+ /* section for my tune hero ended */
+  
 
 
 
@@ -240,9 +233,7 @@ background: url('img dj.jpg') no-repeat center center/cover;
 
 
 
-
-
-
+ /*  responsiev section for my tune hero started */
     @media (max-width: 1024px) {
       .hero-section-headingone{
         font-size: 3.5rem;
@@ -303,6 +294,327 @@ font-weight: 200;
       }
     
     }
+
+
+
+  @media (max-width: 768px) {
+      .hero-section-headingthree {
+        font-size: 2rem;
+        max-width: 90%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-section-headingthree {
+        font-size: 1.5rem;
+        line-height: 1.3;
+      }
+    }
+
+
+
+
+ /*  responsiev section for my tune hero ended */
+
+ /* section for zero ads started */
+
+.container-for-ads{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: var(--darkblue);
+height: 80vh;
+
+
+
+}
+
+.content-headingone{
+     font-family: "Roboto", sans-serif;
+      font-size: 7rem;
+      margin-bottom: 20px;
+      font-weight: 250;
+      color: var(--white);
+
+}
+
+
+.content-headingtwo{
+     font-family: "Roboto", sans-serif;
+      font-size: 3rem;
+      margin-bottom: 20px;
+      font-weight: 850;
+      color: var(--white);
+
+}
+
+
+.content-paraone{
+font-size: 3rem;
+font-family: "Roboto", sans-serif;
+color: var(--white);
+
+}
+
+.content-btn{
+font-size: 3rem;
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+color: var(--white);
+padding: 10px 15px;
+background-color: var(--red);
+border: none;
+border-radius: 3px;
+cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease
+
+
+}
+
+.content-btn:hover{
+background-color: var(--black);
+transform: translateX(10px);
+
+}
+
+
+.content-paratwo{
+font-size: 3rem;
+font-family: "Roboto", sans-serif;
+color: var(--white);
+font-weight: 100;
+
+
+
+
+}
+
+
+
+.container-for-image{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+bottom: 90px;
+}
+/* section for zero ads ended  */
+
+ /* section for zero ads responsive started */
+
+    @media (max-width: 1024px) {
+      .container-for-ads{
+       display: block;
+       width: 100%;
+      }
+
+      .content-headingone{
+        font-size: 3.5rem;
+        font-weight: 300;
+      }
+
+.content-headingtwo{
+     font-size:2.4rem;
+font-weight: 200;
+}
+
+
+      .content-paraone {
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+
+   .content-paratwo{
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+
+
+
+
+.content-image{
+display: block;
+width: 100%;
+
+
+
+
+}
+
+   
+    }
+
+    @media (max-width: 935px) {
+
+           .container-for-ads{
+       display: block;
+       width: 100%;
+      }
+
+      .content-headingone{
+        font-size: 3.5rem;
+        font-weight: 300;
+      }
+
+.content-headingtwo{
+     font-size:2.4rem;
+font-weight: 200;
+}
+
+
+      .content-paraone {
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+
+   .content-paratwo{
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+
+
+
+
+.content-image{
+display: block;
+width: 100%;
+
+
+}
+
+  
+    }
+
+
+
+    @media (max-width: 667px) {
+     .container-for-ads{
+       display: block;
+       width: 100%;
+      }
+
+      .content-headingone{
+        font-size: 3.5rem;
+        font-weight: 300;
+      }
+
+.content-headingtwo{
+     font-size:2.4rem;
+font-weight: 200;
+}
+
+
+      .content-paraone {
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+
+   .content-paratwo{
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+
+
+
+
+.content-image{
+display: block;
+width: 100%;
+
+
+}
+
+
+
+
+     
+    }
+
+
+
+  @media (max-width: 768px) {
+
+     .container-for-ads{
+       display: block;
+       width: 100%;
+      }
+
+      .content-headingone{
+        font-size: 3.5rem;
+        font-weight: 300;
+      }
+
+.content-headingtwo{
+     font-size:2.4rem;
+font-weight: 200;
+}
+
+
+      .content-paraone {
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+
+   .content-paratwo{
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+
+
+
+
+.content-image{
+display: block;
+width: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   section for zero ads  responsive ended  */
 
 
 
