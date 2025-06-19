@@ -1,12 +1,5 @@
    @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-
-
-
-
-
-   
+  
 *{
 margin: 0;
 padding: 0;
@@ -106,10 +99,10 @@ color: var(--red);
 }
 
 
-/* navbar ended */
 
 
-/* navbar  responsive started */
+
+
 
 @media(max-width:935px){
 .links{
@@ -133,39 +126,7 @@ display: none;
 display: none;
 }
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* navbar responsive ended   */
 
@@ -185,15 +146,6 @@ background-size: cover;
 
 }
 
-
-
-
-
-
-
-
-
-
 .my-tune {
   height: 100vh;
   width: 100%;
@@ -210,7 +162,7 @@ background: url('https://cdn.pixabay.com/photo/2016/11/22/19/15/hand-1850120_128
       position: relative;
       z-index: 2;
       text-align: center;
-      color: white;
+      color:var(--white);
       padding: 20px;
     }
 
@@ -349,113 +301,58 @@ font-weight: 200;
 
  /*  responsiev section for my tune hero ended */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.upper-content>h1{
-    font-size: 15rem;
-    text-align: center;
-    padding-top: 35rem;
-}
-.upper-content>h3{
-    font-size: 5rem;
-    text-align: center;
-    padding: 5rem;
-}
-.upper-content>p{
-    font-size: 3rem;
-    text-align: center;
-    padding: 3rem;
-    padding-bottom: 30rem;
-}
-.purple-box>h2{
+.content-section>h2{
     font-size: 8rem;
     text-align: center;
     padding-top: 10rem;
-    color: white;
+    color: var(--white);
 }
-.purple-box{
+.content-section{
     background-color:var(--darkpurple);
-    color: white;
+    color:var(--white);
     padding-bottom: 50rem;
 }
-.purple-box>h3{
+.content-section>h3{
     font-size: 3rem;
     text-align: center;
     padding: 2rem;
     font-family: 'Roboto', sans-serif;
 }
-.purple-box>p{
+.content-section>p{
     font-size: 2rem;
     text-align: center;
     padding: 3rem;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 8rem;
 }
-.purple-box>center>button{
-    background-color: red;
+.content-section>center>button{
+    background-color:var(--darkblue);
     padding: 1.5rem;
-    color: white;
+    color:var(--white);
     font-size: 2.5rem;
     display: flex;  
   cursor: pointer;
   border: none;
   border-radius: 5px;
 }
-.purple-box>h1{
+.content-section>h1{
     font-size: 3rem;
     text-align: center;
     padding: 5rem;
     font-weight: 100;
 }
-.purple-box>center>button:hover{
-  background-color: var(--black);
+.content-section>center>button:hover{
+  background-color: var(--red);
   border: none;
 
 
 
     font-size: 3rem;
 }
-.white-box{
-    background-color: #f9f6ff;
+.section2{
+    background-color:var(--white);
 }
-.white-box>h3{
+.section2>h3{
     font-size: 4rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -463,23 +360,22 @@ font-weight: 200;
     margin-top: -30rem;
     
 }
-.white-box>p{
+.section2>p{
     font-size: 3rem;
     text-align: center;
     padding: 5rem;
 }
-.white-box>center>button{
+.section2>center>button{
     background-color:var(--darkblue);
     border: none;
     padding: 1rem;
     color:var(--white);
     font-size: 2rem;
- 
      border-radius: 5px;
 }
 
 
-.white-box>center>button:hover{
+.section2>center>button:hover{
     background-color:var(--red);
  border-radius: 5px;
   
@@ -487,7 +383,7 @@ font-weight: 200;
 }
 
 
-.white-box>center>img{
+.section2>center>img{
     padding-top: 10rem;
     padding-bottom: 8rem;
 }
@@ -495,24 +391,24 @@ font-weight: 200;
     position: relative;
     bottom: 40rem;
 }
-.third-last-content{
+.section-three{
     background-image: url(https://cdn.pixabay.com/photo/2022/06/02/15/01/music-7238254_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color:var(--white);
 }
-.third-last-content>h3{
+.section-three>h3{
     font-size: 4rem;
     text-align: center;
     padding-top: 30rem;
 }
-.third-last-content>p{
+.section-three>p{
     font-size: 3rem;
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 25rem;
 }
-.text>h2{
+.section-four>h2{
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -520,7 +416,7 @@ font-weight: 200;
     padding: 3rem;
     
 }
-.text>p{
+.section-four>p{
     font-size: 2rem;
     text-align: center;
     width: 50rem;
@@ -531,27 +427,26 @@ font-weight: 200;
     padding-top: 8rem;
     padding-bottom: 5rem;
 }
-.text>center>button{
+.section-four>center>button{
     background-color:var(--darkblue);
     padding: 1rem;
-    color: white;
+    color:var(--white);
     font-size: 2rem;
 
      border-radius: 5px;
 }
 
-.text>center>button:hover{
-    background-color:var(--red);
+.section-four>center>button:hover{
+background-color:var(--red);
  border-radius: 5px;
-
-   border: none;
+border: none;
   
 }
 
 
 
 
-.text>h6{
+.section-four>h6{
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -566,7 +461,7 @@ li{
 ul{
     padding-top: 2rem;
 }
-.footer-links>h4{
+.foter-li>h4{
     font-size: 3rem;
     padding-bottom: 2rem;
 }
@@ -577,11 +472,11 @@ ul{
     color: #ffff;
     padding: 8rem;
 }
-.end{
+.Copyright{
     background-color:var(--darkblue);
     padding: 2rem;
 }
-.end>p{
+.Copyright>p{
     font-size: 2rem;
     color: #ffff;
     text-align: center;
@@ -594,7 +489,7 @@ ul{
     .image-centre{
         width: 80rem;
     }
-    .white-box>center>img{
+    .section2>center>img{
         width: 80rem;
     }
     .image-card>img{
@@ -609,7 +504,7 @@ ul{
     .image-centre{
     width: 80%;
     }
-    .white-box>center>img{
+    .section2>center>img{
         width: 80%;
     }
     .image-card>img{
@@ -624,7 +519,7 @@ ul{
     .image-centre{
         width: 60rem;
     }
-    .white-box>center>img{
+    .section2>center>img{
         width: 60rem;
     }
     .image-card>img{
@@ -639,7 +534,7 @@ ul{
     .image-centre{
         width: 60%;
     }
-    .white-box>center>img{
+    .section2>center>img{
         width: 60%;
     }
     .image-card>img{
