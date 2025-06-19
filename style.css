@@ -136,7 +136,40 @@ display: none;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* navbar responsive ended   */
+
+
 
 
 
@@ -164,7 +197,7 @@ background-size: cover;
 .my-tune {
   height: 100vh;
   width: 100%;
-background: url('img dj.jpg') no-repeat center center/cover;
+background: url('https://cdn.pixabay.com/photo/2016/11/22/19/15/hand-1850120_1280.jpg') no-repeat center center/cover;
 
   display: flex;
   justify-content: center;
@@ -316,308 +349,301 @@ font-weight: 200;
 
  /*  responsiev section for my tune hero ended */
 
- /* section for zero ads started */
-
-.container-for-ads{
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-background-color: var(--darkblue);
-height: 80vh;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.upper-content>h1{
+    font-size: 15rem;
+    text-align: center;
+    padding-top: 35rem;
 }
-
-.content-headingone{
-     font-family: "Roboto", sans-serif;
-      font-size: 7rem;
-      margin-bottom: 20px;
-      font-weight: 250;
-      color: var(--white);
-
+.upper-content>h3{
+    font-size: 5rem;
+    text-align: center;
+    padding: 5rem;
 }
-
-
-.content-headingtwo{
-     font-family: "Roboto", sans-serif;
-      font-size: 3rem;
-      margin-bottom: 20px;
-      font-weight: 850;
-      color: var(--white);
-
+.upper-content>p{
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 30rem;
 }
-
-
-.content-paraone{
-font-size: 3rem;
-font-family: "Roboto", sans-serif;
-color: var(--white);
-
+.purple-box>h2{
+    font-size: 8rem;
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
 }
-
-.content-btn{
-font-size: 3rem;
-font-family: "Roboto", sans-serif;
-font-weight: 100;
-color: var(--white);
-padding: 10px 15px;
-background-color: var(--red);
-border: none;
-border-radius: 3px;
-cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease
-
-
+.purple-box{
+    background-color:var(--darkpurple);
+    color: white;
+    padding-bottom: 50rem;
 }
-
-.content-btn:hover{
-background-color: var(--black);
-transform: translateX(10px);
-
+.purple-box>h3{
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
-
-
-.content-paratwo{
-font-size: 3rem;
-font-family: "Roboto", sans-serif;
-color: var(--white);
-font-weight: 100;
-
-
-
-
+.purple-box>p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 8rem;
 }
-
-
-
-.container-for-image{
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-bottom: 90px;
+.purple-box>center>button{
+    background-color: red;
+    padding: 1.5rem;
+    color: white;
+    font-size: 2.5rem;
+    display: flex;  
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
-/* section for zero ads ended  */
-
- /* section for zero ads responsive started */
-
-    @media (max-width: 1024px) {
-      .container-for-ads{
-       display: block;
-       width: 100%;
-      }
-
-      .content-headingone{
-        font-size: 3.5rem;
-        font-weight: 300;
-      }
-
-.content-headingtwo{
-     font-size:2.4rem;
-font-weight: 200;
+.purple-box>h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 5rem;
+    font-weight: 100;
 }
-
-
-      .content-paraone {
-        font-size: 1.6rem;
-        font-weight: 100;
-      }
-
-
-   .content-paratwo{
-        font-size: 1.6rem;
-        font-weight: 100;
-      }
+.purple-box>center>button:hover{
+  background-color: var(--black);
+  border: none;
 
 
 
-
-
-.content-image{
-display: block;
-width: 100%;
-
-
-
-
+    font-size: 3rem;
 }
-
-   
-    }
-
-    @media (max-width: 935px) {
-
-           .container-for-ads{
-       display: block;
-       width: 100%;
-      }
-
-      .content-headingone{
-        font-size: 3.5rem;
-        font-weight: 300;
-      }
-
-.content-headingtwo{
-     font-size:2.4rem;
-font-weight: 200;
+.white-box{
+    background-color: #f9f6ff;
+}
+.white-box>h3{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: -30rem;
+    
+}
+.white-box>p{
+    font-size: 3rem;
+    text-align: center;
+    padding: 5rem;
+}
+.white-box>center>button{
+    background-color:var(--darkblue);
+    border: none;
+    padding: 1rem;
+    color:var(--white);
+    font-size: 2rem;
+ 
+     border-radius: 5px;
 }
 
 
-      .content-paraone {
-        font-size: 1.6rem;
-        font-weight: 100;
-      }
-
-
-   .content-paratwo{
-        font-size: 1.6rem;
-        font-weight: 100;
-      }
-
-
-
-
-
-.content-image{
-display: block;
-width: 100%;
-
-
-}
-
+.white-box>center>button:hover{
+    background-color:var(--red);
+ border-radius: 5px;
   
+  
+}
+
+
+.white-box>center>img{
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+.image-centre{
+    position: relative;
+    bottom: 40rem;
+}
+.third-last-content{
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/02/15/01/music-7238254_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.third-last-content>h3{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 30rem;
+}
+.third-last-content>p{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 25rem;
+}
+.text>h2{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 3rem;
+    
+}
+.text>p{
+    font-size: 2rem;
+    text-align: center;
+    width: 50rem;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+.text>center>button{
+    background-color:var(--darkblue);
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+
+     border-radius: 5px;
+}
+
+.text>center>button:hover{
+    background-color:var(--red);
+ border-radius: 5px;
+
+   border: none;
+  
+}
+
+
+
+
+.text>h6{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 3rem;
+    
+}
+li{
+    font-size: 2rem;
+    list-style: none;
+}
+ul{
+    padding-top: 2rem;
+}
+.footer-links>h4{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:var(--darkblue);
+    color: #ffff;
+    padding: 8rem;
+}
+.end{
+    background-color:var(--darkblue);
+    padding: 2rem;
+}
+.end>p{
+    font-size: 2rem;
+    color: #ffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+@media(max-width:1035px){
+    html{
+        font-size: 62.5%;
     }
-
-
-
-    @media (max-width: 667px) {
-     .container-for-ads{
-       display: block;
-       width: 100%;
-      }
-
-      .content-headingone{
-        font-size: 3.5rem;
-        font-weight: 300;
-      }
-
-.content-headingtwo{
-     font-size:2.4rem;
-font-weight: 200;
-}
-
-
-      .content-paraone {
-        font-size: 1.6rem;
-        font-weight: 100;
-      }
-
-
-   .content-paratwo{
-        font-size: 1.6rem;
-        font-weight: 100;
-      }
-
-
-
-
-
-.content-image{
-display: block;
-width: 100%;
-
-
-}
-
-
-
-
-     
+    .image-centre{
+        width: 80rem;
     }
-
-
-
-  @media (max-width: 768px) {
-
-     .container-for-ads{
-       display: block;
-       width: 100%;
-      }
-
-      .content-headingone{
-        font-size: 3.5rem;
-        font-weight: 300;
-      }
-
-.content-headingtwo{
-     font-size:2.4rem;
-font-weight: 200;
-}
-
-
-      .content-paraone {
-        font-size: 1.6rem;
-        font-weight: 100;
-      }
-
-
-   .content-paratwo{
-        font-size: 1.6rem;
-        font-weight: 100;
-      }
-
-
-
-
-
-.content-image{
-display: block;
-width: 100%;
-
-
-}
-
-
-
-
-
-
-
-
-
-
+    .white-box>center>img{
+        width: 80rem;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*   section for zero ads  responsive ended  */
-
-
-
-
-
-
+    .image-card>img{
+        width: 40rem;
+        padding-top: 5rem;
+    }
+}
+@media(max-width:745px){
+    html{
+        font-size: 35%;
+    }
+    .image-centre{
+    width: 80%;
+    }
+    .white-box>center>img{
+        width: 80%;
+    }
+    .image-card>img{
+        width: 40rem;
+        padding-top: 5rem;
+    }
+}
+@media(max-width:533px){
+    html{
+        font-size: 25%;
+    }
+    .image-centre{
+        width: 60rem;
+    }
+    .white-box>center>img{
+        width: 60rem;
+    }
+    .image-card>img{
+        width: 30rem;
+        padding-top: 10rem;
+    }
+}
+@media(max-width:377px){
+    html{
+        font-size: 20%;
+    }
+    .image-centre{
+        width: 60%;
+    }
+    .white-box>center>img{
+        width: 60%;
+    }
+    .image-card>img{
+        width: 60%;
+        padding-top: 10rem;
+    }
+}
